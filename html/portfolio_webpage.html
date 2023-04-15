@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_Page</title>
+    <style>
+        
+        table,th,td{
+            border: 1px solid black;
+             border-collapse: collapse;
+        }
+    </style>
+</head>
+<body style="background-color: aqua;">
+    <!-- navbar section -->
+    <nav>
+        <marquee behavior="Scroll" direction="left" scrollamount="15">Welcome To My Portfolio_Page</marquee>
+        <ul type="disc">
+            <li>
+                    <a href="https://www.google.com/search?q=wild+photos&oq=wild+photos&aqs=chrome..69i57j0i512l5j0i22i30l4.7948j0j7&sourceid=chrome&ie=UTF-8">Home</a>
+           </li>
+            <li>
+                <a href="https://www.google.com/search?sxsrf=APwXEddYjEiBtqWFuGGyls9od0ovfZtU0A:1681567311263&q=wild+photos&tbm=isch&chips=q:wildlife+photography,g_1:award+winning:pHwalsjdI_s%3D&usg=AI4_-kToPQiO7PqmvzPE7bQdNtZT2wQM3w&sa=X&ved=2ahUKEwj_woOyhqz-AhU_TmwGHY0xDcEQgIoDKAB6BAgUEBE&biw=1396&bih=720&dpr=1.38">About me</a>
+            </li>
+            <li>
+                <a href="https://www.google.com/search?q=anaconda+images&tbm=isch&ved=2ahUKEwjQiqO7hqz-AhXT-HMBHavMA0AQ2-cCegQIABAA&oq=anaconda+images&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB4yBggAEAUQHjoECCMQJzoGCAAQBxAeOgcIIxDqAhAnOggIABCABBCxAzoICAAQsQMQgwE6BwgAEIoFEEM6DQgAEIoFELEDEIMBEEM6CggAEIoFELEDEEM6CwgAEIAEELEDEIMBOgoIABANEIAEELEDOgcIABANEIAEUJYIWIsjYMQkaAFwAHgAgAHUAYgB4hOSAQYwLjE1LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCsABAQ&sclient=img&ei=Yq46ZNDRJ9Pxz7sPq5mPgAQ&bih=720&biw=1396">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- main comment -->
+    <main>
+<section>
+    <h1 align="center">About me</h1>
+    <p>Good Evening!
+
+        First of all, thanks for giving me this opportunity to introduce myself.
+        
+        My name is Arijit naskar. I am living in West bengal.
+        
+        Coming to my family there are 4 members including me.
+        
+        I have completed my B.tech from Maulana abul kalam azad University in Electronics and Communication Enginnering.
+        
+        My interest is to keep on learning new things.
+        
+        Well, everyone has strengths and weaknesses.
+        
+        The strengths that I have are good communication skills, being a quick learner, being self-motivated and being able to work with teams.
+        
+        My weakness is overthinking.
+        
+        My hobbies are playing cricket and watching movies.
+        
+        My short-term goal is to secure a position in your company.
+        
+        My goal is to achieve a good position at a good level.
+        
+        That's all about me. Thank you.
+        </p>
+</section>
+<section>
+<h1 align="center">Contact me</h1>
+<form action="./script.js" method="post" align="center">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Type your name" name="name" required maxlength="50">
+
+    </div>
+    <br>
+<div>
+    <label for="address">Write your Adddres:</label>
+    <br>
+    <textarea type="text" id="add" rows="5" cols="100" placeholder="Type your Address" required></textarea>
+</div>
+<br>
+    <div>
+        <label for="Phone number">Phone Number:</label>
+        <input type="tel" maxlength="10" name="phn number" pattern="xxxxx-xxxxx" required placeholder="Type your phone number">
+    </div>
+    <div>
+        <br>
+        <label for="date of appointment">Date of appointment:</label>
+        <input type="date" required>
+    </div>
+    <br>
+    <div>
+         <label for="contact type">Contact via whatsapp or call?</label>
+         WhatsApp: <input type="radio" required name="contact">
+         Call: <input type="radio" required name="contact">
+    </div>
+    <br>
+    <div>
+        <label for="time slot">Time Slot:</label>
+        <label for="11-12">11am-12pm</label>
+        <input type="checkbox">
+        <label for="4-5">4pm-5pm</label>
+        <input type="checkbox">
+        <label for="7-8">7pm-8pm</label>
+        <input type="checkbox">
+    </div>
+    <br>
+    <div>
+        <input type="Submit" value="submit">
+        <input type="Reset" value="Reset">
+    </div>
+    <br>
+</form>
+</section>
+<section>
+    <h1 align="center">Projects</h1>
+<table align="center">
+<tr>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>DESCRIPTION</th>
+    <th>project link</th>
+</tr>
+<tr>
+    <td>1 </td>
+    <td>Basics of java</td>
+    <td>In that module we have learn about basics of java like,if else,loop,arrays,strings,switch case,etc.</td>
+    <td><a href="#">Project 1</a></td>
+</tr>
+<tr>
+   <td>2</td>
+   <td>DSA</td>
+   <td>In dsa module we have learn about stacks,queues,graphs,sliding window,hashing,two pointers,binary search tree,binary tree,etc.</td> 
+   <td><a href="#">Project 2</a></td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>HTML</td>
+    <td>In that module we have learn about html,html tags,semantic tags,media tags,tables,forms,etc.</td>
+    <td><a href="#">project 3</a></td>
+</tr>
+</table>
+</section>
+    </main>
+    <!-- footer section -->
+    <footer align="center">
+<hr>
+<h2>You can also connect with me on:</h2>
+<div>
+    <a href="https://www.facebook.com/profile.php?id=100011360208836" target="_blank">Facebook</a>
+    <a href="https://twitter.com/ArijitN35606030" target="_blank">twitter</a>
+    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Gmail</a>
+
+</div>
+    </footer>
+</body>
+</html>
