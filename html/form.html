@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First form</title>
+</head>
+<body>
+    <h1>
+    <form>
+        <h1><u>Please Fill this Form Carefully</u></h1>
+        <div>
+            <label for="username">USERNAME</label> <br>
+            <input type="text" name="username"  placeholder="Enter the username"required>
+        </div>
+        <br>
+      <div>
+        <label for="fullname">FULL NAME</label> <br>
+        <input type="text" name="fname" placeholder="Enter your Full name">
+      </div>
+      <br>
+
+      <div>
+        <label for="phonenumber">PHONE NUMBER</label><br>
+        <input type="tel" name="phnum" placeholder="Enter your Phone Number " maxlength="10" autocomplete="off">
+      </div>
+      <br>
+      <div>
+        <label for="email">EMAIL ID</label><br>
+        <input type="email" name="email" placeholder="Enter your email id"required>
+      </div>
+      <br>
+      <div>
+        <label for="password">PASSWORD</label><br>
+        <input type="password" name="password" placeholder="Enter your Password"required>
+      </div>
+      <br>
+      <div>
+        <label for="gender">Gender</label><br>
+        MALE<input type="radio" name="gender"><br>
+        FEMALE <input type="radio" name="gender">
+      </div>
+      <br>
+      <div>
+        <label for="subjects">Subjects</label><br>
+        Physics<input type="checkbox" name="phy"><br>
+        Chemistry <input type="checkbox" name="chemistry"> <br>
+        Bilogy <input type="checkbox" name="bio"> <br>
+        Mathematics <input type="checkbox" name="maths">
+      </div>
+      <br>
+      <div>
+        <label for="DOB">Date of Birth</label> <input type="date" name="date"><br>
+      </div>
+      <br>
+      <div>
+        <label for="month">The Month when you fill this form</label> <input type="month" name="date"><br>
+      </div>
+      <br>
+       <div>
+        <label for="resume">Upload your Biodata</label> <input type="file" name="resume"><br>
+      </div>
+      <br>
+      <div>
+        <label for="favcolor">Choose your favourite color</label> <input type="color" name="fcolor"><br>
+      </div>
+      <br>
+      <div>
+        <label for="fpet">Choose your favourite pet:</label> 
+        <select name="fpet">
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+            <option value="Bird">Bird</option>
+            <option value="Tiger">Tiger</option>
+        </select>
+      </div>
+      <br>
+      <label for="fplace">Write Your address:</label> <br>
+      <textarea name="fplce" id="" cols="30" rows="10"></textarea><br>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+      <br>
+    </h1>
+    </form>
+</body>
+</html>
