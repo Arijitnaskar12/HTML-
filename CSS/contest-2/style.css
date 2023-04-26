@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:'Monstserrat',sans-serif;
+
+}
+.navbar{
+    background: #FCAF02;
+    display:flex;
+    justify-content:space-between;
+     height: 70px;
+     position: sticky;
+     top: 0px;
+     align-items:center ;
+}
+.navbar .logo img{
+    width: 35%;
+    padding-left: 58px;
+}
+.nav-items{
+    margin-right: 78px;
+}
+.nav-items a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+    padding: 0px 25px;
+}
+.home-page{
+    display: flex;
+    background-color: black;
+    color:white;
+    padding-top: 60px;
+    
+}
+.home-page .img>img{
+width:100%;
+}
+.home-page .content h1{
+font-weight: 700;
+font-size: 50px;
+/* line-height: 78px; */
+color: #FFFFFF;
+}
+.home-page .content {
+width:78%;    
+}
+.home-page .content p{
+font-weight: 400;
+font-size: 17px;
+/* line-height: 34px; */
+color: #FFFFFF;
+}
+.btn{
+background: #FCAF02;
+border-radius: 500px;
+font-weight: 700;
+font-size: 32px;
+border:none;
+padding:14px 114px;
+color:#000000;
+margin:40px 0px;
+}
+.container{
+    background-color: black;
+    padding-left: 58px;
+    
+padding-left: 58px;
+}
+form{
+    padding:65px 0px;
+}
+.form-control input{
+    width:97%;
+    border: 2px solid #FCAF02;
+    border-radius: 100px;
+    height:45px;
+    margin:10px;
+    outline:none;
+    background-color: black;
+}
+.form-control-1 input{
+    width:48%;
+    margin:4px;
+}
+::placeholder{
+    color:#FCAF02;
+    font-size:17px;
+    padding-left:20px;
+}
+.contact-us h1{
+    color:#FCAF02;
+    font-weight:700;
+font-size: 50px;
+padding-top: 20px;
+}
