@@ -1,7 +1,67 @@
-p
-{
-    border: 1px solid black;
-    color:aqua;
-    font-size:40px;
-    font-weight:800;
+ .container{
+    border: 2PX solid BLACK;
+    background-color: aliceblue;
+    display:grid;
+    grid-gap:10PX;
+    height:50vh;
+    grid-template-areas:
+    "header B B C"
+    "header D E H"
+    "header F G H"
+    ;
+    }
+.container .grid-item{
+    width:200px;
+    height:100px;
+    border: 2px solid black;
 }
+#grid-1{
+    grid-area: header;
+    background-color: green;
+}
+#grid-2{
+   grid-area: B;
+   background-color: green;
+}
+#grid-3{
+   grid-area: C;
+   background-color: red;
+}
+#grid-4{
+    grid-area:D;
+    background-color: yellow;
+}
+#grid-5{
+    grid-area:E;
+    background-color: red;
+}
+#grid-6{
+    grid-area:F;
+    background-color: red;
+}
+#grid-7{
+    grid-area:G;
+    background-color: yellow;
+}
+#grid-8{
+    grid-area:H;
+    background-color:green;
+}
+/* .grid-9{
+    grid-area:"I";
+}
+.grid-10{
+    grid-area:"J";
+}
+.grid-11{
+    grid-area:"K";
+}
+.grid-12{
+    grid-area:"L";
+}
+.grid-13{
+    grid-area:"M";
+}
+.grid-14{
+    grid-area:"N";
+} */

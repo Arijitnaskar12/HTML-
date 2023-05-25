@@ -1,0 +1,31 @@
+.navbar{
+height:100px;
+width:100vw;
+display:flex;
+justify-content: space-between;
+align-items:center;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.navbar img{
+height:70px;
+width:50px;
+}
+.link a{
+text-decoration: none;
+color:black;
+padding:20px;
+}
+.btn .xyz{
+    color:white;
+    background-color: blue;
+    border-radius:5px;
+    margin-right:20px;
+    font-size: 20px;
+    padding:10px;
+}
+@media only screen and (max-width:768px)
+{
+ a{
+    display:none;
+  }
+}

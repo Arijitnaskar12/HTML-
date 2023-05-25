@@ -103,7 +103,7 @@ padding-top: 20px;
     margin-right:20px;
     
 }
-table, thead{
+table,thead{
     width: 100%;
     border: 2px solid #FCAF02;
 }
@@ -113,7 +113,7 @@ td, th{
     
 }
 
-tfoot td{
+tfoot td{ 
     border: 2px solid #000000;
 }
 
@@ -127,3 +127,4 @@ tfoot{
     background-color: #FCAF02;
     border: 2px solid #000000;
 }
+/*  */

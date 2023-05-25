@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Java tutorials"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Acciojob_HTML_CSS"
+	}
+}

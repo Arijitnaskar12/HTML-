@@ -1,0 +1,42 @@
+body{
+    background: black;
+}
+.container{
+    border:0px solid black;
+    width: 200px;
+}
+.row{
+    border:0px solid red;
+}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    border:0 solid green;
+}
+
+#header{
+    background-color: orange;
+    padding:10px 0 10px 10px;
+}
+#menu{
+background: pink;
+padding:3px 10px;
+}
+#menu ul{
+    margin-bottom:0;
+}
+#menu ul li{
+    display:inline-block;
+    padding:3px 10px;
+    
+}
+#menu ul a{
+    text-decoration: none;
+}
+#content{
+background-color: white;;
+}
+#sidebar{
+background-color: lightblue;
+}
+#footer{
+background-color: orange;
+}

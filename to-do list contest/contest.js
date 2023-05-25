@@ -60,9 +60,6 @@ console.log(name);
             profession: profession
         };
         users.push(newUser)
-        name.value='';
-        profession.value='';
-        age.value='';
         filterUser();
 }
 else{

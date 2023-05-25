@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning in css</title>
+    <style>
+        .container{
+            height: 1000px;
+            background-color:grey;
+            
+            
+        }
+        #para1{
+            height:100px;
+            width:100px;
+            border:2px solid red;
+            margin:4px;
+        }
+        #para2{
+            height:100px;
+            width:100px;
+            border:2px solid red;
+            margin: 4px;
+        }
+        #para3{
+            height:100px;
+            width:100px;
+            border:2px solid red;
+            margin: 4px;
+            position:sticky;
+             top: 30px; 
+            /* bottom: 20px; */
+            
+        }
+        .div{
+            display: inline-block;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="div"id="para1">box1</div>
+    <div class="div"id="para2">box2</div>
+    <div class="div"id="para3">box3</div>
+    </div>
+</body>
+</html>

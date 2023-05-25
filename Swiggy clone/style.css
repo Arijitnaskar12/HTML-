@@ -5,9 +5,9 @@
 }
 .navbar{
     position: fixed;
-    top: 0;
-    left: 0;
-     right: 0;  
+    top:0;
+    left:0;
+     right:0;
     height:80px;
     padding:0 20px;
     background-color: white;
@@ -20,7 +20,7 @@
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
-    position:relative;
+    /* position:relative; */
     height: 80px;
 }
 .nav .nav-left{
@@ -203,7 +203,7 @@ position: relative;
 
 }
 .quick-view .view-btn{
-    color:#5d8ed5;
+     color:#5d8ed5;
     text-transform:uppercase;
     font-weight:600;
 }

@@ -1,0 +1,22 @@
+.accordion-item {
+    border:none;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+/* .accordion-header{ */
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.accordion-button{
+    height:10vh;
+}
+.accordion-button:not(.collapsed)
+{
+    background-color: white;;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
