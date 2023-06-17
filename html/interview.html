@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<input type="date"id="person1">
+<input type="date"id="person2">
+</body>
+<script>
+ let person1Id=document.getElementById("person1");
+ let person2Id=document.getElementById("person2");
+ person2Id.addEventListener("change",()=>{
+  let input1=person1Id.value.split("-");
+ let input2=person2Id.value.split("-");
+let years=Math.abs(input1[0]-input2[0]);
+let months=Math.abs(input1[1]-input2[1]);
+let days=Math.abs(input1[2]-input2[2]);
+console.log(years+" years "+months+" months "+days+" days");
+ });
+ 
+</script>
+</html>
